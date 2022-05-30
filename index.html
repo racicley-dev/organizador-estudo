@@ -11,24 +11,43 @@
 </head>
 
 <body>
-    <header>
-        <h1>Início</h1>
+
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <span class="fs-4">Organizador de Tarefas</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"></a></li>
+        </ul>
     </header>
+
     <section>
-        <table>
+        <table class="table">
             <thead>
-                <td>#</td>
-                <td>Tarefa</td>
-                <td>Data Início</td>
-                <td>Última Atualização</td>
-                <td>Importância</td>
-                <td>Prazo?</td>
-                <td>Data Prazo</td>
-                <td>Recorrência</td>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Tarefa</th>
+                    <th scope="col">Data Início</th>
+                    <th scope="col">Última Atualização</th>
+                    <th scope="col">Importância</th>
+                    <th scope="col">Prazo?</th>
+                    <th scope="col">Data Prazo</th>
+                    <th scope="col">Recorrência</th>
+                    <th></th>
+                </tr>
             </thead>
+
             <tbody>
                 <tr>
-                    <td>1</td>
+                    <th scope="row">1</th>
                     <td>Tarefa 1</td>
                     <td>01/01/2022</td>
                     <td>01/05/2022</td>
@@ -36,9 +55,15 @@
                     <td>Sem Prazo</td>
                     <td>null</td>
                     <td>Diária</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Detalhes</button>
+                    </td>
                 </tr>
             </tbody>
         </table>
+
+
+
     </section>
     <footer>
 
