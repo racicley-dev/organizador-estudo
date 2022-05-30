@@ -1,6 +1,6 @@
 # Organizador Pessoal
 
-Projeto criado com objetio de ser um organizador pessoal simples, contendo:
+Projeto criado com objetivo de ser um organizador pessoal simples, contendo:
 
 ## Features Básicas
 
